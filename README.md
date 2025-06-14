@@ -1,10 +1,10 @@
-# 🧠 Variational Autoencoder (VAE) on FashionMNIST
+# Variational Autoencoder (VAE) on FashionMNIST
 
 This project demonstrates a Variational Autoencoder (VAE) implemented from scratch using PyTorch to learn a compact, 2D latent representation of the FashionMNIST dataset. It highlights core deep learning principles including encoder-decoder architectures, the reparameterization trick, and latent space sampling — making it an ideal showcase of applied machine learning proficiency.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Develop and train a Variational Autoencoder (VAE) using PyTorch.
 - Learn and visualize compressed latent representations of image data.
@@ -13,7 +13,7 @@ This project demonstrates a Variational Autoencoder (VAE) implemented from scrat
 
 ---
 
-## 🚀 Tools & Technologies
+## Tools & Technologies
 
 | Purpose                  | Tool/Library           |
 |--------------------------|------------------------|
@@ -25,7 +25,7 @@ This project demonstrates a Variational Autoencoder (VAE) implemented from scrat
 
 ---
 
-## 🛠️ Core Components
+## Core Components
 
 - **Encoder**: Maps flattened image (784D) to a 2D latent space (mean & log variance).
 - **Reparameterization Trick**: Enables backpropagation through stochastic sampling.
@@ -34,9 +34,9 @@ This project demonstrates a Variational Autoencoder (VAE) implemented from scrat
 
 ---
 
-## 📊 Results
+## Results
 
-### 📉 Training Loss Curve
+### Training Loss Curve
 
 The model demonstrates steady convergence over 10 epochs.
 
@@ -47,7 +47,7 @@ The model demonstrates steady convergence over 10 epochs.
 
 ---
 
-### 🌌 Latent Space Visualization
+### Latent Space Visualization
 
 #### • Unlabeled Latent Space
 > Shows 2D clustering of 5000 samples in latent space.
@@ -63,7 +63,7 @@ The model demonstrates steady convergence over 10 epochs.
 
 ---
 
-### 🖼️ Image Generation
+### Image Generation
 
 #### • Grid Sampling from Latent Space
 
@@ -83,7 +83,7 @@ Each row shows slight variations around the latent mean vector for one category:
 
 ---
 
-## 🔍 Key Learnings
+## Key Learnings
 
 - **Dimensionality Reduction**: Compressing high-dimensional image space into 2D latent representations reveals structure in the data.
 - **Generative Modeling**: Once trained, the decoder can generate new, realistic-looking images conditioned on sampled latent vectors.
@@ -91,7 +91,7 @@ Each row shows slight variations around the latent mean vector for one category:
 
 ---
 
-## ⚠️ Challenges Faced
+## Challenges Faced
 
 - Balancing the trade-off between reconstruction loss and KL divergence.
 - Maintaining meaningful variance in a low-dimensional latent space (2D).
@@ -99,7 +99,7 @@ Each row shows slight variations around the latent mean vector for one category:
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 1. **Install Dependencies**
 ```bash
